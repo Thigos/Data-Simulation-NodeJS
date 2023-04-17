@@ -1,5 +1,7 @@
 # Data-Simulation-NodeJS
-Envios de Dados, simulando um Arduino, para um servidor NodeJS
+Simulação de dados de sensores Arduino com NodeJS
+
+#### Os valores são gerados aleatoriamente dentro de uma faixa de intervalo específica (min, max)
 
 ### Instalação
 ```cmd
@@ -12,7 +14,40 @@ npm install
 npm start
 ```
 
-Pode ser Acessado em Qualquer Dispositivo usando Request
+### Configurar Intervalos
+Os intervalos podem ser configurados na <a href="main.js#L11">L11</a> do ```main.js```, definindo o min e max de cada sensor
+```js
+const limits = {
+    Dht11Umidade: {
+        min: 50,
+        max: 100, 
+    },
+
+    Dht11Temperatura: {
+        min: 15,
+        max: 25, 
+    },
+
+    Luminosidade: {
+        min: 600,
+        max: 700, 
+    },
+
+    Lm35Temperatura: {
+        min: 25,
+        max: 35, 
+    },
+
+    Chave: {
+        min: 0,
+        max: 1,
+    },
+}
+```
+
+### Uso
+Pode ser Acessado em Qualquer Dispositivo usando Requests
+
 ### Exemplo de Request em JS:
 ```js
 var http = new XMLHttpRequest();
