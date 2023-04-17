@@ -1,4 +1,7 @@
-const mysql = require('mysql2');
+/* ISC Copyright
+Copyright 2023 MariseMiranda
+*/
+
 const express = require('express');
 
 const DELAY = 1000; //ms
