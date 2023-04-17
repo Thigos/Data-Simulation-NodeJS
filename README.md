@@ -1,5 +1,5 @@
 # Data-Simulation-NodeJS
-Envios de Dados, simulando um Arduino, para servidor um NodeJS
+Envios de Dados, simulando um Arduino, para um servidor NodeJS
 
 Pode ser Acessado em Qualquer Dispositivo usando Request
 ### Exemplo em JS:
