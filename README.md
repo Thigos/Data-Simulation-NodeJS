@@ -2,7 +2,7 @@
 Envios de Dados, simulando um Arduino, para servidor um NodeJS
 
 Pode ser Acessado em Qualquer Dispositivo usando Request
-###Exemplo em JS:
+### Exemplo em JS:
 ```js
 var http = new XMLHttpRequest();
 http.open('GET', 'http://localhost:3000/sensores/' + sensor, false);
