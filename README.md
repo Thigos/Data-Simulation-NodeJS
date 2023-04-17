@@ -1,6 +1,17 @@
 # Data-Simulation-NodeJS
 Envios de Dados, simulando um Arduino, para um servidor NodeJS
 
+### Instalação
+```cmd
+cd Data-Simulation-NodeJS
+npm install
+```
+
+### Start Server
+```cmd
+npm start
+```
+
 Pode ser Acessado em Qualquer Dispositivo usando Request
 ### Exemplo em JS:
 ```js
