@@ -13,7 +13,7 @@ npm start
 ```
 
 Pode ser Acessado em Qualquer Dispositivo usando Request
-### Exemplo em JS:
+### Exemplo de Request em JS:
 ```js
 var http = new XMLHttpRequest();
 http.open('GET', 'http://localhost:3000/sensores/' + sensor, false);
